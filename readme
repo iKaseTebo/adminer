@@ -1,0 +1,10 @@
+docker run -dit -p 8080:80
+--link < Container Name >
+ -v D:\Repositories\Docker\adminer\app:/usr/share/nginx/html/
+ -v D:\Repositories\Docker\adminer\shared:/shared/
+ -v D:\Repositories\Docker\adminer\php-conf\fpm:/etc/php5/fpm/
+ -v D:\Repositories\Docker\adminer\php-conf\php5:/usr/share/php5/
+ -v D:\Repositories\Docker\adminer\nginx-conf:/etc/nginx/
+ikasetebo/adminer:vX.XX
+
+https://hub.docker.com/r/ikasetebo/adminer/
