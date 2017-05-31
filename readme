@@ -7,4 +7,7 @@ docker run -dit -p 8080:80
  -v D:\Repositories\Docker\adminer\nginx-conf:/etc/nginx/
 ikasetebo/adminer:vX.XX
 
+
+### Place Gzips into the App Folder to Import through Adminer
+
 https://hub.docker.com/r/ikasetebo/adminer/
