@@ -8,6 +8,6 @@ docker run -dit -p 8080:80
 ikasetebo/adminer:vX.XX
 
 
-### Place Gzips into the App Folder to Import through Adminer
+**Place Gzips into the App Folder to Import through Adminer**
 
 https://hub.docker.com/r/ikasetebo/adminer/
